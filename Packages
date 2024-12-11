@@ -3,10 +3,9 @@ Architecture: iphoneos-arm64
 Version: 3.11.1
 Section: Python
 Maintainer: CongChu
-Installed-Size: 16,2MB
 Depends: libiosexec1, librecompat, libintl8 | gettext (>= 0.21), ncurses (>= 6.0) | libncursesw6 (>= 6.0), readline (>= 8.0) | libreadline8 (>= 8.0), openssl3 | libssl3, libgdbm6 | libgdbm (>= 1.18.1), firmware (>= 14.0) | libexpat1 | expat, libmpdec3 | mpdecimal, xz (>= 5.2.7) | liblzma5
 Filename: ./debs/python3.11_3.11.1_iphoneos-arm64.deb
-Size: 16,2MB
+Size: 16195888
 MD5sum: 123f7097dc7c685a067b1eed57de0ea5
 SHA1: fc8be9b53991403c24ffa5a8302ebd4cb78ec823
 SHA256: c29134ff31f7448a7046316e2a348bb05fe5c84a5d5adc33cb4f64fbba4ce15f
