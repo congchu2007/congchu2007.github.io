@@ -7,10 +7,9 @@ Installed-Size: 16,2MB
 Depends: libiosexec1, librecompat, libintl8 | gettext (>= 0.21), ncurses (>= 6.0) | libncursesw6 (>= 6.0), readline (>= 8.0) | libreadline8 (>= 8.0), openssl3 | libssl3, libgdbm6 | libgdbm (>= 1.18.1), firmware (>= 14.0) | libexpat1 | expat, libmpdec3 | mpdecimal, xz (>= 5.2.7) | liblzma5
 Filename: ./debs/python3.11_3.11.1_iphoneos-arm64.deb
 Size: 16,2MB
-MD5sum: 44b33a671722b003a6ba12e18d772c36
-SHA1: 898aae0192f5e06bfbbfac8a64df6810556564d6
-SHA256: ad44c85e6a5d8049c575a8ea330f20cd422d80ed34e0e1b5e24122644e02259b
-SHA512: 0d1ce9101b600d4eec1bcd40651d10dfbac3f446ff8f13f60ca10aea58064500a8f37beaef1e5700298c40caa3999d11647492603448e3f82fff81469f1eb251
+MD5sum: 123f7097dc7c685a067b1eed57de0ea5
+SHA1: fc8be9b53991403c24ffa5a8302ebd4cb78ec823
+SHA256: c29134ff31f7448a7046316e2a348bb05fe5c84a5d5adc33cb4f64fbba4ce15f
 Description: Interpreted, interactive, object-oriented programming language. Notice: not built as framework since unavailable, applied several patches form Debian
 Depiction: none
 SileoDepiction: none
