@@ -10,9 +10,29 @@ Size: 16,2MB
 MD5sum: 123f7097dc7c685a067b1eed57de0ea5
 SHA1: fc8be9b53991403c24ffa5a8302ebd4cb78ec823
 SHA256: c29134ff31f7448a7046316e2a348bb05fe5c84a5d5adc33cb4f64fbba4ce15f
-Description: Interpreted, interactive, object-oriented programming language. Notice: not built as framework since unavailable, applied several patches form Debian
+Description: Interpreted, interactive, object-oriented programming language. Notice: not built as framework since unavailable, applied several patches form Debian.
 Depiction: none
 SileoDepiction: none
-Name: Python3.11
+Name: Python3
+Author: Torrekie
+Sponsor: idk
+
+Package: python
+Architecture: iphoneos-arm64
+Version: 3.11.1
+Section: Python
+Maintainer: CongChu
+Installed-Size: 980kB
+Depends: python3.11
+Filename: ./debs/python_3.11.1_iphoneos-arm64.deb
+Size: 980kB
+MD5sum: 53769bec48c072cd1d952dc519ba7512
+SHA1: 23774dd8ec94b1bab4ecb0581efde705148bb8df
+SHA256: c926d76ac0583ca7791aa84de18465101baac346ed912be6a8b19e761c3f13e6
+Description: Interpreted, object-oriented programming language
+  This package is a dependency package, which depends on Torrekie's Python3 version (currently v3.11).
+Depiction: none
+SileoDepiction: none
+Name: Python
 Author: Torrekie
 Sponsor: idk
