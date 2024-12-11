@@ -4,7 +4,10 @@ Version: 3.11.1
 Section: Tweaks
 Maintainer: CongChu
 Installed-Size: 16,2MB
-Depends: mobilesubstrate, firmware (>= 15.0), com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 2.0)
+Pre-Depends: libiosexec1, librecompat
+Depends: libintl8 | gettext (>= 0.21), ncurses (>= 6.0) | libncursesw6 (>= 6.0), readline (>= 8.0) | libreadline8 (>= 8.0), openssl3 | libssl3, libgdbm6 | libgdbm (>= 1.18.1), firmware (>= 14.0) | libexpat1 | expat, libmpdec3 | mpdecimal
+Suggests: xz (>= 5.2.7) | liblzma5
+Section: Python (3.11)
 Filename: ./debs/python3.11_3.11.1_iphoneos-arm64.deb
 Size: 16,2MB
 MD5sum: 44b33a671722b003a6ba12e18d772c36
