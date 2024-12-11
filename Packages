@@ -1,20 +1,17 @@
-Package: congchu.python3.11-rootless
+Package: python3
 Architecture: iphoneos-arm64
 Version: 3.11.1
-Section: Tweaks
+Section: Python
 Maintainer: CongChu
 Installed-Size: 16,2MB
-Pre-Depends: libiosexec1, librecompat
-Depends: libintl8 | gettext (>= 0.21), ncurses (>= 6.0) | libncursesw6 (>= 6.0), readline (>= 8.0) | libreadline8 (>= 8.0), openssl3 | libssl3, libgdbm6 | libgdbm (>= 1.18.1), firmware (>= 14.0) | libexpat1 | expat, libmpdec3 | mpdecimal
-Suggests: xz (>= 5.2.7) | liblzma5
-Section: Python (3.11)
+Depends: libiosexec1, librecompat, libintl8 | gettext (>= 0.21), ncurses (>= 6.0) | libncursesw6 (>= 6.0), readline (>= 8.0) | libreadline8 (>= 8.0), openssl3 | libssl3, libgdbm6 | libgdbm (>= 1.18.1), firmware (>= 14.0) | libexpat1 | expat, libmpdec3 | mpdecimal, xz (>= 5.2.7) | liblzma5
 Filename: ./debs/python3.11_3.11.1_iphoneos-arm64.deb
 Size: 16,2MB
 MD5sum: 44b33a671722b003a6ba12e18d772c36
 SHA1: 898aae0192f5e06bfbbfac8a64df6810556564d6
 SHA256: ad44c85e6a5d8049c575a8ea330f20cd422d80ed34e0e1b5e24122644e02259b
 SHA512: 0d1ce9101b600d4eec1bcd40651d10dfbac3f446ff8f13f60ca10aea58064500a8f37beaef1e5700298c40caa3999d11647492603448e3f82fff81469f1eb251
-Description: Python 3.11.1 dành cho rootless jailbreak!
+Description: Interpreted, interactive, object-oriented programming language. Notice: not built as framework since unavailable, applied several patches form Debian
 Depiction: none
 SileoDepiction: none
 Name: Python3.11
