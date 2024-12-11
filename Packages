@@ -21,7 +21,6 @@ Architecture: iphoneos-arm64
 Version: 3.11.1
 Section: Python
 Maintainer: CongChu
-Installed-Size: 980 byte
 Depends: python3.11
 Filename: ./debs/python_3.11.1_iphoneos-arm64.deb
 Size: 980 byte
